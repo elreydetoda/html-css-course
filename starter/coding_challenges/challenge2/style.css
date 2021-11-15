@@ -45,6 +45,7 @@
 .price {
   font-size: 24px;
   font-weight: bold;
+  float: left;
 }
 
 .price-surround {
@@ -58,6 +59,8 @@
   font-weight: bold;
   text-transform: uppercase;
   font-size: 12px;
+  float: right;
+  margin-top: 10px;
 }
 
 /* more info */
@@ -73,6 +76,7 @@
 }
 
 .more-info-surround {
+  margin-top: 10px;
   padding-bottom: 20px;
 }
 
@@ -81,6 +85,7 @@
 .detailed-title {
   font-size: 16px;
   margin-bottom: 15px;
+  text-transform: uppercase;
 }
 
 .detailed-list {
@@ -109,15 +114,10 @@
   border-top: 4px solid black;
 }
 
-p {
-  margin-bottom: 10px;
-}
-
 .colors-container div {
   /* background-color: black; */
   padding: 12px;
   margin-right: 5px;
-  margin-bottom: 15px;
   display: inline-block;
 }
 
@@ -147,17 +147,25 @@ p {
 }
 
 .product-img {
-  width: 100%;
+  width: 80%;
 }
 .product-info {
   float: left;
-  width: 300px;
+  width: 250px;
+  font-size: small;
+  padding-top: 10px;
 }
 .details-info {
   float: right;
   width: 300px;
+  margin-top: 20px;
 }
 .img-box {
   width: 300px;
   float: left;
+}
+
+.price-text {
+  clear: both;
+  margin-top: 70px;
 }
