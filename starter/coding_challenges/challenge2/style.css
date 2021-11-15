@@ -9,6 +9,21 @@
   line-height: 1.4;
   width: 825px;
   margin: 50px auto;
+  position: relative;
+}
+
+.sale-box {
+  background-color: #f00;
+  color: #fff;
+  display: inline-block;
+  position: absolute;
+  text-transform: uppercase;
+  padding: 4px 15px;
+  font-size: small;
+  font-weight: bold;
+  top: -10px;
+  left: -35px;
+  letter-spacing: 2px;
 }
 
 /* product */
@@ -94,4 +109,36 @@
 
 p {
   margin-bottom: 10px;
+}
+
+.colors-container div {
+  /* background-color: black; */
+  padding: 10px;
+  margin: 0 5px;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.color-1 {
+  background-color: #000;
+}
+
+.color-2 {
+  background-color: #076ef5;
+}
+
+.color-3 {
+  background-color: #f00;
+}
+
+.color-4 {
+  background-color: #f3cf02;
+}
+
+.color-5 {
+  background-color: #64b409;
+}
+
+.color-6 {
+  background-color: #754e05;
 }
