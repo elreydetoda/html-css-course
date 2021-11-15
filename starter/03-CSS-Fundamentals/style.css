@@ -28,7 +28,7 @@ body {
   */
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
+  /* height: 80px; */
 }
 
 nav {
@@ -84,6 +84,7 @@ p {
   font-size: 22px;
   line-height: 1.5;
   margin-bottom: 15px;
+  /* display: inline; */
 }
 
 ul,
@@ -94,6 +95,7 @@ ol {
 li {
   font-size: 20px;
   margin: 10px;
+  /* display: inline; */
 }
 
 /* footer p {
@@ -161,4 +163,21 @@ a:active {
 .post-img {
   width: 100%;
   height: auto;
+  /* margin: 100px; */
+}
+
+nav a:link {
+  background-color: orangered;
+  /* because anchor is inline won't apply to top & bottom */
+  /* margin: 20px;
+  padding: 20px; */
+  /* forces inline to be block */
+  /* display: block; */
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
 }
