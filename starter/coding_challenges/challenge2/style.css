@@ -18,11 +18,11 @@
   display: inline-block;
   position: absolute;
   text-transform: uppercase;
-  padding: 4px 15px;
-  font-size: small;
+  padding: 7px 15px;
+  font-size: 12px;
   font-weight: bold;
-  top: -10px;
-  left: -35px;
+  top: -17px;
+  left: -38px;
   letter-spacing: 2px;
 }
 
@@ -113,8 +113,8 @@ p {
 
 .colors-container div {
   /* background-color: black; */
-  padding: 10px;
-  margin: 0 5px;
+  padding: 12px;
+  margin-right: 5px;
   margin-bottom: 15px;
   display: inline-block;
 }
@@ -141,4 +141,5 @@ p {
 
 .color-6 {
   background-color: #754e05;
+  margin-right: 0px;
 }
