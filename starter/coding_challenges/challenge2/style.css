@@ -8,7 +8,7 @@
   font-size: larger;
   line-height: 1.4;
   width: 825px;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 /* product */
@@ -17,7 +17,7 @@
   background-color: #f7f7f7;
   text-align: center;
   font-size: 22px;
-  padding: 10px 0;
+  padding: 15px 0;
 }
 
 .headers {
@@ -89,6 +89,7 @@
 .cart-button:hover {
   color: black;
   background: white;
+  border-top: 4px solid black;
 }
 
 p {
