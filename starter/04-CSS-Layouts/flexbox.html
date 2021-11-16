@@ -48,15 +48,28 @@
         /* justify-content: center; */
         /* justify-content: space-between; */
         justify-content: flex-start;
-        gap: 30px;
+        gap: 10px;
       }
       /* replaced with gap */
-      /* .el {
-        margin-right: 30px;
-      } */
+      .el {
+        /* margin-right: 30px; */
+        /* DEFAULTS */
+        /*
+        used for allowing elements to grow to un-used space
+        flex-grow: 0;
+        used for allowing shrink elements if necessary or not
+        flex-shrink: 1;
+        flex-basis: auto; */
+        /* flex-basis: 200px; */
+        /* flex-grow: 1; */
+        /* flex: 0 0 200px; */
+        /* what we probably want */
+        flex: 1;
+      }
       .el--1 {
         align-self: flex-start;
         /* order: 2; */
+        /* flex-grow: 2; */
       }
       .el--5 {
         align-self: stretch;
