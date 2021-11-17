@@ -17,8 +17,13 @@ body {
 
 .container {
   /*   background-color: red; */
-  display: flex;
-  gap: 40px;
+  /* FLEXBOX */
+  /* display: flex;
+  gap: 40px; */
+  /* CSS Grid */
+  display: grid;
+  grid-template-columns: 250px repeat(2, 1fr);
+  column-gap: 40px;
 }
 
 .product-img {
