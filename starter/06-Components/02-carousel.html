@@ -50,10 +50,10 @@
         margin: 100px auto;
         background-color: #087f5b;
         border-radius: 8px;
-        padding: 32px;
+        padding: 32px 48px 32px 86px;
         /* color: #fff; */
         display: flex;
-        /* align-items: center; */
+        align-items: center;
         gap: 86px;
         padding-left: 86px;
         position: relative;
@@ -84,6 +84,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
       }
 
       .btn--right {
@@ -101,6 +103,28 @@
       .btn-icon {
         height: 24px;
         width: 24px;
+      }
+
+      .dots {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, 32px);
+        display: flex;
+        gap: 12px;
+      }
+
+      .dot {
+        height: 12px;
+        width: 12px;
+        background-color: #fff;
+        border: 2px solid #087f5b;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+
+      .dot--fill {
+        background: #087f5b;
       }
     </style>
   </head>
@@ -149,6 +173,12 @@
           />
         </svg>
       </button>
+      <d class="dots">
+        <button class="dot dot--fill">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+      </d>
     </div>
   </body>
 </html>
