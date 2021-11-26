@@ -39,9 +39,29 @@ unsplash
   box-sizing: border-box;
 }
 
+html {
+  /* Would create accessiblity issues when people want bigger font */
+  /* font-size: 10px; */
+  /* instead use a percentage of defined font */
+  /* Want our font to be 10px (default is 16) */
+  /* 10px / 16px = .0625 = 62.5% */
+  /* This keeps 1rem = 10px */
+  font-size: 62.5%;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
+}
+
+.test {
+  /* max-width: 1000px; */
+  max-width: 50rem;
+  background-color: red;
+  padding: 100px;
+  color: #fff;
+  font-size: 2rem;
+  padding: 4rem;
 }
