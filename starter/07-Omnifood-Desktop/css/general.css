@@ -30,6 +30,7 @@ Paragraph default: 1.6
 - Shades: #cf711f
 - Accents: 
 - Greys:
+#6f6f6f (lightest grey allowed on #fdf2e0)
 #555
 #333
 
@@ -43,6 +44,7 @@ unsplash
 
 --- 06 BORDER-RADIUS
 Default: 9px
+Medium: 11px
 
 --- 07 WHITESPACE
 
